@@ -1,0 +1,36 @@
+{
+	"name": "viewport-cropper",
+	"title": "jQuery viewport-cropper",
+	"description": "A JQuery plugin the crop images on the front end combined with a Ruby gem to actually create a new image file on the back end.",
+	"keywords": [
+		"jquery",
+		"viewport-cropper",
+		"plugins"
+	],
+	"version": "0.0.1",
+	"author": {
+		"name": "Zach Feldman",
+		"email": "zachfeldman@gmail.com",
+		"url": "https://github.com/zachfeldman"
+	},
+	"maintainers": [
+		{
+			"name": "Zach Feldman",
+			"email": "zachfeldman@gmail.com",
+			"url": "https://github.com/zachfeldman"
+		}
+	],
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://mit-license.org/"
+		}
+	],
+	"bugs": "https://github.com/zachfeldman/jquery-viewport-cropper",
+	"homepage": "https://github.com/zachfeldman/jquery-viewport-cropper",
+	"docs": "https://github.com/zachfeldman/jquery-viewport-cropper#readme",
+	"download": "https://github.com/zachfeldman/jquery-viewport-cropper/archive/master.zip",
+	"dependencies": {
+		"jquery": ">=1.4"
+	}
+}

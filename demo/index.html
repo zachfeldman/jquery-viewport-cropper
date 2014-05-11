@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>jQuery viewport-cropper</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+		<script src="../dist/jquery.viewport-cropper.js"></script>
+		<link href="../dist/jquery.viewport-cropper.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<form enctype="multipart/form-data">
+			<input type="file" id="file" name="file">
+		</form>
+		<script>
+			$(function() {
+				$("#file").viewportCropper();
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>jQuery viewport-cropper</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+		<script src="jquery.viewport-cropper.js"></script>
+		<link href="jquery.viewport-cropper.css" rel="stylesheet" type="text/css">
+		<style type="text/css">
+			body{
+				font-family: "Arial", sans-serif;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>jQuery viewport-cropper</h1>
+		<p>
+			Here's a demo of the jQuery viewport-cropper plugin. Full source and documentation can be found at <a href="https://github.com/zachfeldman/jquery-viewport-cropper">the plugin's GitHub page</a>
+		<form enctype="multipart/form-data">
+			<input type="file" id="file" name="file">
+		</form>
+		<br>
+		Built with love and on the shoulders of giants by <a href="https://twitter.com/zachfeldman">@zachfeldman</a>
+		<script>
+			$(function() {
+				$("#file").viewportCropper();
+			});
+		</script>
+	</body>
+</html>
